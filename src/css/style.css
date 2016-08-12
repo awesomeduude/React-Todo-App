@@ -14,7 +14,7 @@ h1{
   text-align: center;
   width: 200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   background-color: #fafafa;
   border-radius: 3px;
   box-shadow: 1px 1px 1px 1px rgba(255,51,85,.6)
@@ -44,8 +44,14 @@ li{
   list-style-position: inside;
   text-align: left;
   font-weight: 100;
-  
+
 }
 .strike{
   text-decoration: line-through;
+}
+p{
+  color:#ff3355;
+  font-size: .6em;
+  margin: 10px 0 5px 0;
+  padding:0;
 }
