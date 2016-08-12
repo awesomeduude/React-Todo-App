@@ -22,7 +22,7 @@ export default class TodoApp extends React.Component {
   render() {
     return (
       <div className='container'>
-        <h1>Prioritized Todo List</h1>
+        <h1>Ordered Todo List</h1>
         <TodoList items={this.state.items}/>
         <form onSubmit={this.handleSubmit.bind(this)}>
           <input placeholder='enter task name here' type='text' onChange={this.onChange.bind(this)} value={this.state.text}/>

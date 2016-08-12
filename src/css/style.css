@@ -1,28 +1,40 @@
 body{
   font-family:'Helvetica'
 }
+input,.container{
+  border: 1px solid #ff3355;
+}
 h1{
+  font-weight: 100;
   font-size: 1.25em;
+  color:#ff3355;
+
 }
 .container{
   text-align: center;
   width: 200px;
   margin: 0 auto;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px rgba(255,51,85,.6)
+
 }
 input[type='text'] {
   width: 150px;
   margin-bottom: 10px;
 }
+input:focus  {
+  border: 2px solid #ff3355;
+}
 button, input {
   outline: none;
-  line-height: 1.5;
+  line-height: 1.6;
   border-radius: 3px;
   padding: 5px;
 }
-input {
-  border: 1px solid #aaa;
-}
 button{
+  color: #fefefe;
   margin-right: 5px;
   border: none;
   background-color: #ff3355;
@@ -31,6 +43,8 @@ button{
 li{
   list-style-position: inside;
   text-align: left;
+  font-weight: 100;
+  
 }
 .strike{
   text-decoration: line-through;
