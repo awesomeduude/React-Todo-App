@@ -27,7 +27,7 @@ export default class TodoApp extends React.Component {
         <form onSubmit={this.handleSubmit.bind(this)}>
           <input placeholder='enter task name here' type='text' onChange={this.onChange.bind(this)} value={this.state.text}/>
           <br/>
-          <button>{'Add item at index:'}</button>
+          <button>{'Add task at index:'}</button>
           <input onChange={this.onIndexChange.bind(this)} value={this.state.index} type='number' name='index' min='0' max={this.state.items.length}/>
         </form>
         <p>Click on a task to cross it out</p>
